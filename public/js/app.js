@@ -1,3 +1,4 @@
+
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('form input');
 const errorMessage = document.querySelector('p#error');
