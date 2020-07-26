@@ -66,7 +66,8 @@ app.get('/weather', (req, res) => {
                 feelslike: current.feelslike,
                 precip: current.precip * 10 + '%',
                 location,
-                address: searchAdress
+                address: searchAdress,
+                weather_icon: current.weather_icons[0]
             });
         })
     });

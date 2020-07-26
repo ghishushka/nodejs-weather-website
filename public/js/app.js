@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit', (e) => {
             errorMessage.textContent = '';
             const location = data.location;
             outputForecast.innerHTML = `Showing forecast for: <b>${data.address}</b> <small>[${location.name}, ${location.region}, ${location.country}]</small><br />` +
-                                        `${data.weather}<br />` +
+                                        `${data.weather} <img src="${data.weather_icon}" width="30" /><br />` +
                                         `Temperature ${data.forecast} <sup>o</sup>C<br />` +
                                         `Feels like ${data.feelslike} <sup>o</sup>C<br />` +
                                         `Chances of rain ${data.precip}<br />` +

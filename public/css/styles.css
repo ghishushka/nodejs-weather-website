@@ -53,3 +53,10 @@ button {
     color: white;
     padding: 8px;
 }
+
+#output {
+    line-height: 30px;
+}
+#output IMG {
+    vertical-align: middle;
+}
